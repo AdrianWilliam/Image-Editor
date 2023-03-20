@@ -1,0 +1,17 @@
+.filter{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #343333;
+    color: rgba(255, 255, 255, 0.681);
+    cursor: pointer;
+    align-items: center;
+    font-family: var(--text-default);
+}
+.active{
+    transition: background-color 0.3s;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
